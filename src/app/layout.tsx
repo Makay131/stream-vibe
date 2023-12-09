@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} bg-vibe-black-06`}>
+      <body className={`${manrope.className} bg-vibe-black-06 px-4 lg:px-20 2xl:px-[162px]`}>
         <Header />
         {children}
       </body>
