@@ -4,11 +4,12 @@ import NavLinks from "./navbar/navbar";
 
 export default function Header() {
   return (
-    <header className="h-28">
+    <header>
       <Logo />
       <NavLinks />
       <>
-        <DynamicIcon svgName="bell" twClass="w-6 h-6" />
+        <DynamicIcon svgName="bell" twClass="w-6 h-6 cursor-pointer" />
+        <DynamicIcon svgName="search" twClass="w-6 h-6" />
       </>
     </header>
   )

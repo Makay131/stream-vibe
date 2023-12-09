@@ -9,6 +9,8 @@ const importSvgComponent = (svgName: string) => {
     switch (svgName) {
       case 'bell':
         return dynamic(() => import('./icons/bell.tsx').then((module) => module.default));
+      case 'search':
+        return dynamic(() => import('./icons/search.tsx').then((module) => module.default));
       default:
         return dynamic(() => import('./icons/bell.tsx').then((module) => module.default));
     }
@@ -17,7 +19,7 @@ const importSvgComponent = (svgName: string) => {
 function DynamicIconRenderer({ svgName, twClass }: DynamicIconRendererProps) {
     const DynamicSvg = importSvgComponent(svgName);
     return (
-        <DynamicSvg twClass={twClass} />
+          <DynamicSvg twClass={twClass} />
     );
   }
   
