@@ -4,7 +4,7 @@ import NavLinks from "./navbar/navbar";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center py-[15px] 2xl:py-[18px] bg-transparent fixed top-0 left-0 right-0 px-4 lg:px-20 2xl:px-[162px] z-10">
+    <header className="flex justify-between items-center pt-10 pb-[14px] md:py-[15px] 2xl:py-[18px] bg-transparent fixed top-0 left-0 right-0 px-4 lg:px-20 2xl:px-[162px] z-10">
       <Logo />
         <NavLinks />
         <span className="hidden md:flex items-center gap-3.5 2xl:gap-7">
