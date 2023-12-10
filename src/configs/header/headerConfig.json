@@ -2,8 +2,8 @@
     "logoDesktop": "/header/logo-desktop.svg",
     "logoLaptop": "/header/logo-laptop.svg",
     "logoMobile": "/header/logo-mobile.svg",
-    "desktopBreakpoint": "(min-width: 1440px)",
-    "laptopBreakpoint": "(min-width: 390px) and (max-width: 1439px)",
+    "desktopBreakpoint": "1440px",
+    "laptopBreakpoint": "1280px",
     "navLinks": [
         {"key": "home", "name": "Home", "path": "/"},
         {"key": "shows", "name": "Movies & Shows", "path": "/shows"},
