@@ -11,6 +11,8 @@ const importSvgComponent = (svgName: string) => {
         return dynamic(() => import('./icons/bell.tsx').then((module) => module.default));
       case 'search':
         return dynamic(() => import('./icons/search.tsx').then((module) => module.default));
+      case 'menu':
+        return dynamic(() => import('./icons/menu.tsx').then((module) => module.default));
       default:
         return dynamic(() => import('./icons/bell.tsx').then((module) => module.default));
     }
